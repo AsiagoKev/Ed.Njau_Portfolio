@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="landingpage.css"/>
+  <style>
+    .dropdown {
+      position: relative;
+    }
+
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #333; /* Dark background */
+      min-width: 160px;
+      box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
+      z-index: 1;
+    }
+
+    .dropdown-content a {
+      color: #fff; /* White text for contrast */
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+    }
+
+    .dropdown-content a:hover {
+      background-color: #575757; /* Slightly lighter on hover */
+    }
+
+    .dropdown:hover .dropdown-content {
+      display: block;
+    }
+  </style>
+</head>
+<body>
+  <!-- Navbar -->
+  <header class="navbar">
+    <div class="logo">Portfolio</div>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="landingpage.html">Home</a></li>
+        <li><a href="About.html">About me</a></li>
+        <li><a href="Resume.html">Resume</a></li>
+        <li class="dropdown">
+          <a href="#">Projects</a>
+          <div class="dropdown-content">
+            <a href="Design.html">Mechanical Design</a>
+            <a href="Machining.html">Machining</a>
+          </div>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div class="container">
+      <div class="image-section">
+        <img src="picha1.jpeg" alt="Edwin Njau" class="person-img"/>
+      </div>
+      <div class="text-section">
+        <h1>Njau Edwin Mugai</h1>
+        <h2>Mechanical Engineer</h2>
+        <p>A passionate Mechanical Engineer with hands-on skills in design and precision machining. I combine creativity, efficiency and technical accuracy to turn concepts into functional and manufacturable solutions.</p>
+        <div class="buttons">
+          <a href="#" class="btn hire-btn">Hire Me</a>
+          <a href="#" class="btn portfolio-btn">My Portfolio</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <script src="landingpage.js"></script>
+  <footer class="site-footer">
+  <div class="footer-container">
+    <div class="footer-column">
+      <h3>Contact</h3>
+      <p>Email: nau.edwin20@students.dkut.ac.ke</p>
+      <p>Phone: +254 746 975 526</p>
+      <p>Address: 2566-60100 
+                 Embu, Kenya</p>
+    </div>
+    <div class="footer-divider"></div>
+    <div class="footer-column">
+      <h3>Quick Links</h3>
+      <ul>
+        <li><a href="landingpage.html">Home</a></li>
+        <li><a href="About.html">About Me</a></li>
+        <li><a href="Resume.html">Resume</a></li>
+        <li><a href="Design.html">Design Projects</a></li>
+        <li><a href="Machining.html">Machining Projects</a></li>
+      </ul>
+    </div>
+    <div class="footer-divider"></div>
+    <div class="footer-column">
+      <h3>Follow Me</h3>
+      <p><a href="#">LinkedIn</a></p>
+      <p><a href="#">GitHub</a></p>
+      <p><a href="#">Instagram</a></p>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>&copy; 2025 Edwin Njau. All rights reserved.</p>
+  </div>
+</footer>
+</body>
+</html>

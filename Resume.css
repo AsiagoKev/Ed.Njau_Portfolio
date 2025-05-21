@@ -1,0 +1,208 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  body {
+    background-color: #0d1b2a;
+    color: #f1faee;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 80px;
+    background-color: transparent;
+  }
+  
+  .site-footer {
+  background-color: #0d1b2a; /* dark overlay from hero section */
+  color: #f1faee;
+  padding: 40px 80px 20px;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 60px;
+  max-width: 1200px;
+  margin: 0 auto;
+  border-top: 4px solid #00b4d8;
+  border-bottom: 4px solid #f77f00;
+  padding: 20px 0;
+}
+
+.footer-column {
+  flex: 1;
+  min-width: 200px;
+}
+
+.footer-column h3 {
+  color: #00b4d8;
+  margin-bottom: 10px;
+  font-size: 1.2rem;
+}
+
+.footer-column ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-column ul li {
+  margin-bottom: 8px;
+}
+
+.footer-column a {
+  color: #f1faee;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer-column a:hover {
+  color: #f77f00;
+}
+
+.footer-divider {
+  width: 4px;
+  background: linear-gradient(to bottom, #00b4d8, #f77f00);
+  height: 100%;
+  border-radius: 2px;
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 0.9rem;
+  color: #aaa;
+}  
+  .logo {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #00b4d8;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+  }
+  
+  .nav-links li a {
+    color: #f1faee;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+  }
+  
+  .nav-links li a:hover {
+    color: #f77f00;
+  }
+  
+  .resume-section {
+    padding: 60px 10%;
+    background-color: #0d1b2a;
+  }
+  
+  .resume-header {
+    text-align: center;
+    margin-bottom: 60px;
+  }
+  
+  .resume-header h1 {
+    font-size: 3rem;
+    color: #00b4d8;
+  }
+  
+  .resume-header h2 {
+    font-size: 1.5rem;
+    color: #f77f00;
+    margin: 10px 0;
+  }
+  
+  .resume-header p {
+    font-size: 1rem;
+    color: #ccc;
+  }
+  
+  .resume-content {
+    display: flex;
+    gap: 60px;
+    flex-wrap: wrap;
+  }
+  
+  .resume-left, .resume-right {
+    flex: 1;
+    min-width: 300px;
+  }
+  
+  .resume-block {
+    margin-bottom: 30px;
+  }
+  
+  .resume-block h4 {
+    font-size: 1.2rem;
+    color: #00b4d8;
+  }
+  
+  .resume-block .date {
+    font-size: 0.9rem;
+    color: #f77f00;
+    margin: 5px 0 10px;
+  }
+  
+  .resume-block p {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #eee;
+  }
+  
+  .skill-list, .cert-list {
+    list-style: square;
+    padding-left: 20px;
+    margin-bottom: 30px;
+  }
+  
+  .skill-list li, .cert-list li {
+    margin-bottom: 10px;
+  }
+  
+  .download-resume {
+    margin-top: 40px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.05);
+    border-radius: 8px;
+    text-align: center;
+  }
+  
+  .download-resume h3 {
+    margin-bottom: 15px;
+    font-size: 1.3rem;
+    color: #f1faee;
+  }
+  
+  .download-btn {
+    background-color: #00b4d8;
+    color: white;
+    padding: 12px 24px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background 0.3s ease;
+  }
+  
+  .download-btn:hover {
+    background-color: #0096c7;
+  }
+  
+  /* Responsive */
+  @media (max-width: 768px) {
+    .resume-content {
+      flex-direction: column;
+    }
+  }
+  
